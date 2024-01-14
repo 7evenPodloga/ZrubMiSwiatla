@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background: rgb(0,0,0);
+    background-image: linear-gradient(100deg, rgba(0,0,0,1) 0%, rgba(20,46,173,1) 50%, rgba(23,23,161,1) 50.08%, rgba(255,255,255,1) 100%);
+
+    text-shadow: -5px 5px 0 black;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    color: #b3dee8;
+}
+
+html {
+    height: 100%;
+}
+
+
+.header {
+    width: fit-content;
+    margin: auto;
+    font-family: inter-bold;
+}
+
+button {
+    width: fit-content;
+    border-radius: 7.5px 1px;
+    padding: 5px;
+    border-width: 0px;
+    letter-spacing: 0.25px;
+    font-size: 20px;
+    font-family: inter-semibold;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    color: black;
+    transition: background-color 0.3s;
+    background-color: #afd7ff;
+    display: block;
+    margin: auto;
+    outline: 0px;
+}
+
+button:hover {
+    transition: background-color 0.3s;
+    background-color: #ffff;
+}
+
+button:active {
+    transition: background-color 0.3s;
+    background-color: #6eb7ff;
+}
+
+.mainDiv {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.inputs {
+    margin: auto;
+    width: 270px;
+    line-height: 0px;
+    pointer-events: none
+}
+
+input[type="text"] {
+    margin: auto;
+    display: block;
+}
+
+input[type="checkbox"] {
+    margin: 5px;
+    flex-wrap: wrap;
+    height: 20px;
+    width: 20px;
+    border: 0px;
+    border-radius: 0px;
+    outline: 0px;
+    accent-color: #6eb7ff;
+    pointer-events: all;
+}
+
+.winDiv {
+    margin: auto;
+    display: block;
+}
+
+@font-face {
+        font-family: inter-light;
+        src: url(fonts/Inter-Light.ttf);
+  }
+
+@font-face {
+    font-family: inter-regular;
+    src: url(fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter-medium;
+    src: url(fonts/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: inter-semibold;
+    src: url(fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: inter-bold;
+    src: url(fonts/Inter-Bold.ttf);
+}
